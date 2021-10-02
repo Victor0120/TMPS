@@ -10,6 +10,7 @@ public class Main {
 
         BossOfThisGym boss = BossOfThisGym.getInstance();
         boss.say();
+        System.out.println();
 
 
         BarBuilder heavyBar = new HeavyBar();
