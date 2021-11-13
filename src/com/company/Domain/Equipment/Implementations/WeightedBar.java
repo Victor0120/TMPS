@@ -1,4 +1,6 @@
-package com.company.Builder;
+package com.company.Domain.Equipment.Implementations;
+
+import com.company.Domain.Equipment.Abstractions.BarWithWeights;
 
 public class WeightedBar implements BarWithWeights {
 

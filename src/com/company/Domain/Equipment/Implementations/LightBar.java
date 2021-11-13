@@ -1,31 +1,33 @@
-package com.company.Builder;
+package com.company.Domain.Equipment.Implementations;
 
-public class HeavyBar implements BarBuilder {
+import com.company.Domain.Equipment.Abstractions.BarBuilder;
+
+public class LightBar implements BarBuilder {
 
     private WeightedBar weightedBar;
 
-    public HeavyBar() {
+    public LightBar() {
         this.weightedBar = new WeightedBar();
     }
 
     public void setBarType() {
-        weightedBar.setBarType("Straight");
+        weightedBar.setBarType("Curled");
     }
 
     public void set20kgPlates() {
-        weightedBar.set20kgPlatesNumber(2);
+        weightedBar.set20kgPlatesNumber(0);
     }
 
     public void set15kgPlates() {
-        weightedBar.set15kgPlatesNumber(2);
+        weightedBar.set15kgPlatesNumber(0);
     }
 
     public void set10kgPlates() {
-        weightedBar.set10kgPlatesNumber(2);
+        weightedBar.set10kgPlatesNumber(0);
     }
 
     public void set5kgPlates() {
-        weightedBar.set5kgPlatesNumber(2);
+        weightedBar.set5kgPlatesNumber(0);
     }
 
     public void set1kgPlates() {
@@ -35,4 +37,5 @@ public class HeavyBar implements BarBuilder {
     public WeightedBar getWeightedBar() {
         return this.weightedBar;
     }
+
 }

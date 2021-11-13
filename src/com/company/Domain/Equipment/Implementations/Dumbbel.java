@@ -1,4 +1,6 @@
-package com.company.Prototype;
+package com.company.Domain.Equipment.Implementations;
+
+import com.company.Utilities.Prototype.Prototype;
 
 public class Dumbbel implements Prototype {
 

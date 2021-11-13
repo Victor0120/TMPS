@@ -1,4 +1,6 @@
-package com.company.Builder;
+package com.company.Domain.Equipment.Abstractions;
+
+import com.company.Domain.Equipment.Implementations.WeightedBar;
 
 public interface BarBuilder {
     public void setBarType();

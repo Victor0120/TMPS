@@ -1,4 +1,10 @@
-package com.company.Builder;
+package com.company.Utilities.Builders;
+
+import com.company.Domain.Equipment.Implementations.HeavyBar;
+import com.company.Domain.Equipment.Implementations.LightBar;
+import com.company.Domain.Equipment.Implementations.WeightedBar;
+import com.company.Domain.Staff.Trainer;
+import com.company.Domain.Equipment.Abstractions.BarBuilder;
 
 public class Builder {
     public static void main(String[] args) {

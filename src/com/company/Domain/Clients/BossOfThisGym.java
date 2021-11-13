@@ -1,4 +1,4 @@
-package com.company.Singleton;
+package com.company.Domain.Clients;
 
 public class BossOfThisGym {
     private static volatile BossOfThisGym boss = null;

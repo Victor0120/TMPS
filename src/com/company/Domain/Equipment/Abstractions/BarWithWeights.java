@@ -1,6 +1,6 @@
-package com.company.Builder;
+package com.company.Domain.Equipment.Abstractions;
 
-interface BarWithWeights {
+public interface BarWithWeights {
     public void setBarType(String barType);
 
     public void set20kgPlatesNumber(int number);

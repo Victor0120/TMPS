@@ -1,4 +1,7 @@
-package com.company.Builder;
+package com.company.Domain.Staff;
+
+import com.company.Domain.Equipment.Abstractions.BarBuilder;
+import com.company.Domain.Equipment.Implementations.WeightedBar;
 
 public class Trainer {
     private BarBuilder barBuilder;
