@@ -167,4 +167,4 @@ public class TreadmillDecorator {
 }
 ```
 ## Conclusion:
-The creational design patterns are useful for increasing the flexibility and reusability of existing code.
+The creational design patterns are useful for increasing the flexibility and reusability of existing code, and the structural design patterns keeps the structure of the classes and objects efficient.
