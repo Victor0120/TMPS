@@ -1,6 +1,8 @@
 package com.company.Client;
 
-import com.company.Domain.Clients.Lifter;
+import com.company.Domain.Clients.Implementations.ClientCollection;
+import com.company.Domain.Clients.Implementations.ClientListManager;
+import com.company.Domain.Clients.Implementations.Lifter;
 import com.company.Domain.Equipment.Implementations.Treadmill;
 import com.company.Utilities.Decorators.TreadmillDecorator;
 import com.company.Domain.Equipment.Abstractions.BarBuilder;
@@ -10,7 +12,7 @@ import com.company.Domain.Equipment.Implementations.WeightedBar;
 import com.company.Domain.Staff.Trainer;
 import com.company.Domain.Staff.Cashier;
 import com.company.Domain.Equipment.Implementations.Dumbbel;
-import com.company.Domain.Clients.BossOfThisGym;
+import com.company.Domain.Clients.Implementations.BossOfThisGym;
 
 public class Main {
 
@@ -91,5 +93,11 @@ public class Main {
         treadmill.activate();
         TreadmillDecorator decoratedTreadmill = new TreadmillDecorator(treadmill);
         decoratedTreadmill.activate(10);
+
+        System.out.println("__________________");
+        ClientCollection cc = new ClientCollection();
+        cc.addClient("Rick Dalton", 55, "079654789");
+        ClientListManager manager = new ClientListManager(cc);
+        manager.printClients();
     }
 }

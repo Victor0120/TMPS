@@ -1,4 +1,4 @@
-package com.company.Domain.Clients;
+package com.company.Domain.Clients.Implementations;
 
 public class BossOfThisGym {
     private static volatile BossOfThisGym boss = null;

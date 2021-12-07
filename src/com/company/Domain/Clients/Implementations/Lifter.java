@@ -1,4 +1,4 @@
-package com.company.Domain.Clients;
+package com.company.Domain.Clients.Implementations;
 
 import java.util.ArrayList;
 import java.util.List;
